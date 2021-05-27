@@ -1,0 +1,67 @@
+container-fluid {
+    /* width: 100vw;
+    height: 100vh; */
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+.organization-data-container {
+    text-align: left;
+    margin-bottom: 27px;
+}
+
+
+
+.organization-data {
+    height: 19px;
+    color: #0063D6;
+    /* font-family: Roboto; */
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 0;
+    line-height: 19px;
+}
+
+.delete-btn {
+    border-radius: 25px;
+    border: unset;
+    background-color: red;
+    color: white;
+    font-size: 16px;
+}
+
+thead {
+    box-sizing: border-box;
+    height: 1px;
+    border-bottom: 2px solid #ECEEF5;
+    transform: rotate(0deg);
+    border-style: unset;
+}
+
+.table>:not(:last-child)>:last-child> {
+    border-bottom-color: red !important;
+}
+
+
+
+th {
+    height: 18px;
+    color: #586176;
+    /* font-family: Roboto; */
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 18px;
+
+}
+
+.table-striped>tbody>tr:nth-child(odd) {
+    background-color: #FAFBFD !important;
+}
+.table-hover tbody tr:hover {
+    background-color: #ffffff !important;
+}
+
+.table-striped>tbody>tr:nth-of-type(odd) {
+    --bs-table-accent-bg: #FAFBFD !important;
+}
